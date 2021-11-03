@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <style>
+        body {
+            font-family: sans-serif;
+        }
+        .container {
+            display: flex;
+            align-items: center;
+            width: 60%;
+            border: 2px solid black;
+            padding: 2rem;
+        }
+        .card {
+            margin-right: 4rem;
+        }
+        .btn-beli {
+            background-color: green;
+            border: none;
+            padding: 0.25rem 1rem;
+            color: white;
+            cursor: pointer;
+        }
+    </style>
+
+    <div class="container">
+        <div class="card">
+            <h4>free fire</h4>
+            <b>3000</b>
+            <div class="btn">
+                <button class="btn-beli">Beli</button>
+            </div>
+        </div>
+        <div class="card">
+            <h4>Pubg</h4>
+            <b>5000</b>
+            <div class="btn">
+                <button class="btn-beli">Beli</button>
+            </div>
+        </div>
+        <div class="card">
+            <h4>point blank</h4>
+            <b>7000</b>
+            <div class="btn">
+                <button class="btn-beli">Beli</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal">
+        <h2>detail pembelian</h2>
+        <h4 class="produk">-</h4>
+        <b class="harga">-</b>
+        <p style="color: green;">berhasil!</p>
+    </div>
+    
+    <script src="./script.js"></script>
+</body>
+</html>
